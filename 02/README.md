@@ -6,3 +6,20 @@ When you have that working, modify your program to print "FizzBuzz" for numbers 
 
 # Algorigramme
 ![fizzbuzz](02.png)
+
+# Pseudocode
+```
+Procédure FizzBuzz
+variable : number i
+i <- 0
+Pour i de 1 à 100; i + 1 faire :
+    si i % 3 = 0 et i % 5 = 0
+        alors: FizzBuzz
+    sinon si i % 3 = 0
+        alors: Fizz
+    sinon si i % 5 = 0 
+        alors: Buzz
+    sinon affiche i
+    fin si
+fin Pour
+```
