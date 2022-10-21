@@ -4,3 +4,5 @@ Write a program that uses console.log to print all the numbers from 1 to 100, wi
 
 When you have that working, modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 
+# Algorigramme
+![fizzbuzz](02.png)
