@@ -20,3 +20,27 @@ When you have a program that generates this pattern, define a binding size = 8 a
 
 # Algorithme
 ![chessboard](03.png)
+
+# Pseudocode
+```
+Procedure printChessboard
+Pour row entre 0 et 6
+    si i est paire
+        pour column entre 0 et 7
+            si j est paire 
+                ajoute ''
+            sinon
+                ajoute '#'
+            fin j 
+        fin pour
+    sinon 
+        pour column entre 0 et 7
+            si j est paire
+                ajoute '#'
+            sinon
+                ajoute ''
+            fin si 
+        fin pour
+    fin i 
+fin pour
+```
