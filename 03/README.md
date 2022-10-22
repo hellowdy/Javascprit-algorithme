@@ -24,23 +24,26 @@ When you have a program that generates this pattern, define a binding size = 8 a
 # Pseudocode
 ```
 Procedure printChessboard
-Pour row entre 0 et 6
+Pour i entre 0 et 6; i++ faire:
+variable : chaine de caractère row
+row <- ' '
     si i est paire
-        pour column entre 0 et 7
+        pour j entre 0 et 7; j++ faire:
             si j est paire 
-                ajoute ''
-            sinon
-                ajoute '#'
+                alors row += ''
+            sinon 
+                alors row += '#'
             fin j 
         fin pour
     sinon 
-        pour column entre 0 et 7
+        pour j entre 0 et 7; j++ faire:
             si j est paire
-                ajoute '#'
-            sinon
-                ajoute ''
+                alors row += '#'
+            sinon 
+                alors row += ''
             fin si 
         fin pour
     fin i 
+    affiche row
 fin pour
 ```
